@@ -46,7 +46,7 @@ Autolinking will just do the job.
 | **`emojiSize`**                   | Default emoji size                                                    | number     | 24             |
 | **`tabBarPosition`**              | Default category nav position                                             | string     |'bottom' |
 | **`hideBackSpace`**               | Show or hide backspace icon                                                  | boolean     | false             |
-| **`categoryDefautColor`**         | Default category icon color                                        | string     | '#aaa'             |
+| **`categoryDefaultColor`**         | Default category icon color                                        | string     | '#aaa'             |
 | **`categoryHighlightColor`**      | Default category icon highlight color                              | string     | '#000'        |
 | **`categoryIconSize`**            | Default category icon size                                   | string    | 20           |
 | **`containerStyle`**              | Main container style, same as [Layout Props](https://facebook.github.io/react-native/docs/0.9/layout-props)                                    | object    | {}          |
@@ -56,7 +56,7 @@ Autolinking will just do the job.
 
 <br/>
 
-**If you want to support less category or modify the icon, here is the categories props:**
+**If you want to support less categories or modify the icon, here are the category props:**
 
 | Prop                              | Description                                                                      | type       |
 | --------------------------------- | -------------------------------------------------------------------------------- | ---------- |

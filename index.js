@@ -42,7 +42,7 @@ const EmojiBoard = ({
     onRemove,
     tabBarPosition = 'bottom',
     hideBackSpace = false,
-    categoryDefautColor = '#aaa',
+    categoryDefaultColor = '#aaa',
     categoryHighlightColor = '#000',
     categoryIconSize = 20,
     containerStyle = {},
@@ -122,7 +122,7 @@ const EmojiBoard = ({
                         onRemove={onRemove}
                         hideBackSpace={hideBackSpace}
                         tabBarStyle={tabBarStyle}
-                        categoryDefautColor={categoryDefautColor}
+                        categoryDefaultColor={categoryDefaultColor}
                         categoryHighlightColor={categoryHighlightColor}
                         categoryIconSize={categoryIconSize}
                     />
@@ -165,7 +165,7 @@ EmojiBoard.propTypes = {
     onRemove: PropTypes.func,
     tabBarPosition: PropTypes.string,
     hideBackSpace: PropTypes.bool,
-    categoryDefautColor: PropTypes.string,
+    categoryDefaultColor: PropTypes.string,
     categoryHighlightColor: PropTypes.string,
     categoryIconSize: PropTypes.number,
     containerStyle: PropTypes.object,

@@ -41,7 +41,7 @@ const CategoryTabBar = ({
     categories,
     onRemove,
     hideBackSpace,
-    categoryDefautColor,
+    categoryDefaultColor,
     categoryHighlightColor,
     categoryIconSize
 }) => {
@@ -63,7 +63,7 @@ const CategoryTabBar = ({
                     const iconColor =
                         activeTab === i
                             ? categoryHighlightColor
-                            : categoryDefautColor;
+                            : categoryDefaultColor;
                     const iconObj =
                         categories.find(item => tab === item.name) || {};
                     const {iconType, icon} = iconObj;
